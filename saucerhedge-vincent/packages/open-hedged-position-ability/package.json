@@ -1,0 +1,26 @@
+{
+  "name": "@saucerhedgevault/open-hedged-position-ability",
+  "version": "1.0.4",
+  "description": "Opens a new hedged position to protect liquidity from impermanent loss",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "pnpm build"
+  },
+  "dependencies": {
+    "@lit-protocol/vincent-ability-sdk": "^2.2.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "commonjs"
+}

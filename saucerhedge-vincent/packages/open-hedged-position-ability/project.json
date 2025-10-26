@@ -1,0 +1,15 @@
+{
+  "name": "open-hedged-position-ability",
+  "sourceRoot": "packages/open-hedged-position-ability/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "tsc",
+        "cwd": "packages/open-hedged-position-ability"
+      }
+    }
+  },
+  "tags": []
+}
