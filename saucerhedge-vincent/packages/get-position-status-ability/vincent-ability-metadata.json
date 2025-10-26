@@ -1,0 +1,8 @@
+{
+  "name": "@saucerhedgevault/get-position-status-ability",
+  "version": "1.0.4",
+  "title": "Get Position Status",
+  "description": "Retrieves current status, balance, and performance metrics of hedged positions",
+  "ipfsCid": "bafkreiaok7eliimdlcxrbgiankxfeqj77gpnvh734ehbswkqj54q3vgkfi",
+  "supportedPolicies": ["@saucerhedgevault/max-position-size-policy"]
+}

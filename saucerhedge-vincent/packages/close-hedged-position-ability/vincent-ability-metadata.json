@@ -1,0 +1,8 @@
+{
+  "name": "@saucerhedgevault/close-hedged-position-ability",
+  "version": "1.0.4",
+  "title": "Close Hedged Position",
+  "description": "Closes an existing hedged position and returns funds to user's wallet",
+  "ipfsCid": "bafkreibrtwbqn2fafobcqpw5b2j7xnved65qd2ubrmzl6bluwzs7ptcnha",
+  "supportedPolicies": ["@saucerhedgevault/max-position-size-policy"]
+}

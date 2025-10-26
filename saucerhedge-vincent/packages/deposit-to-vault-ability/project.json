@@ -1,0 +1,15 @@
+{
+  "name": "deposit-to-vault-ability",
+  "sourceRoot": "packages/deposit-to-vault-ability/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "tsc",
+        "cwd": "packages/deposit-to-vault-ability"
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "@saucerhedgevault/close-vault-hedged-position-ability",
+  "version": "1.0.4",
+  "title": "Close Vault Position",
+  "description": "Closes a vault-managed hedged position and returns funds to the vault",
+  "ipfsCid": "bafkreib4yhggcla7xqcjoefiv42mihe2l63aopimytnpbpknshyucba744",
+  "supportedPolicies": ["@saucerhedgevault/max-position-size-policy"]
+}

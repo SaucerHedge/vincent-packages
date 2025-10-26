@@ -1,0 +1,8 @@
+{
+  "name": "@saucerhedgevault/deposit-to-vault-ability",
+  "version": "1.0.4",
+  "title": "Deposit to Vault",
+  "description": "Deposits HBAR or tokens into the user's SaucerHedge vault for automated hedging",
+  "ipfsCid": "bafkreihtvcrvbk7gwlidhepwyqhzg2o5kzzf2ldihf4bizqrcswcdaqja4",
+  "supportedPolicies": ["@saucerhedgevault/max-position-size-policy"]
+}
