@@ -4,7 +4,7 @@ const ethers = require('ethers');
 const { loadABI, loadBytecode, saveDeployedAddresses } = require('./utils');
 
 const HEDERA_RPC_URL = 'https://testnet.hashio.io/api';
-const DEPLOYER_PRIVATE_KEY = '0x8412616778261ee7cd57ac5669ea2cee34a1ca4bc072f9cecf11197ab442f371';
+const DEPLOYER_PRIVATE_KEY = '';
 
 async function deployToken(wallet, contractName, initialSupply) {
   console.log(`\n🚀 Deploying ${contractName}...`);
