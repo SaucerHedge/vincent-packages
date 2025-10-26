@@ -1,0 +1,8 @@
+{
+  "name": "@saucerhedgevault/open-hedged-position-ability",
+  "version": "1.0.4",
+  "title": "Open Hedged Position",
+  "description": "Opens a new hedged position to protect liquidity from impermanent loss on SaucerSwap DEX",
+  "ipfsCid": "bafkreiaiiptz4b7qze5zdrk6jtra53cg5v544mm2kspaq2wwsxct7cqp34",
+  "supportedPolicies": ["@saucerhedgevault/max-position-size-policy"]
+}

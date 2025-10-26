@@ -1,0 +1,8 @@
+{
+  "name": "@saucerhedgevault/open-vault-hedged-position-ability",
+  "version": "1.0.4",
+  "title": "Open Vault Position",
+  "description": "Opens a hedged position using funds from the user's vault for automated protection",
+  "ipfsCid": "bafkreigafo6ld57gdo2rwwd2w5gkddritf3jz6qd26gqt2vk4u7c5lriny",
+  "supportedPolicies": ["@saucerhedgevault/max-position-size-policy"]
+}
