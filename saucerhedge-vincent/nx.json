@@ -20,66 +20,22 @@
     {
       "plugin": "@nx/js/typescript",
       "options": {
-        "typecheck": {
-          "targetName": "typecheck"
-        },
-        "build": {
-          "targetName": "build",
-          "configName": "tsconfig.lib.json",
-          "buildDepsName": "build-deps",
-          "watchDepsName": "watch-deps"
-        }
-      }
-    },
-    {
-      "plugin": "@nx/eslint/plugin",
-      "options": {
-        "targetName": "lint"
-      }
-    },
-    {
-      "plugin": "@nx/jest/plugin",
-      "options": {
-        "targetName": "test"
+        "typecheck": { "targetName": "typecheck" },
+        "build": { "targetName": "build" }
       }
     }
   ],
-  "workspaceLayout": {
-    "appsDir": "apps",
-    "libsDir": "packages"
-  },
-  "release": {
-    "projects": ["ability-native-send", "policy-counter", "test-e2e"],
-    "projectsRelationship": "independent",
-    "releaseTagPattern": "vincent/{projectName}/{version}",
-    "versionPlans": true,
-    "changelog": {
-      "projectChangelogs": true
-    },
-    "version": {
-      "preVersionCommand": "pnpm nx run-many --target=build --all"
-    }
+  "projects": {
+    "open-hedged-position-ability": "packages/open-hedged-position-ability",
+    "close-hedged-position-ability": "packages/close-hedged-position-ability",
+    "max-position-size-policy": "packages/max-position-size-policy",
+    "open-vault-hedged-position-ability": "packages/open-vault-hedged-position-ability",
+    "close-vault-hedged-position-ability": "packages/close-vault-hedged-position-ability",
+    "get-position-status-ability": "packages/get-position-status-ability",
+    "deposit-to-vault-ability": "packages/deposit-to-vault-ability"
   },
   "targetDefaults": {
-    "clean": {
-      "executor": "nx:run-commands",
-      "options": {
-        "commands": ["rm -rf ./node_modules ./dist tsconfig.lib.tsbuildinfo"],
-        "cwd": "{projectRoot}"
-      }
-    },
-    "lint": {
-      "executor": "@nx/eslint:lint",
-      "outputs": ["{options.outputFile}"],
-      "options": {
-        "lintFilePatterns": ["{projectRoot}/**/*.{ts,tsx,js,jsx}"]
-      }
-    },
-    "test": {
-      "dependsOn": ["^build"]
-    },
     "build": {
-      "inputs": ["{projectRoot}/src/**/*"],
       "dependsOn": ["^build"]
     }
   }

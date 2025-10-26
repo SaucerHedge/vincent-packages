@@ -1,5 +1,7 @@
 packages:
-  - packages/*
+  - 'packages/open-hedged-position-ability'
+  - 'packages/close-hedged-position-ability'
+  - 'packages/max-position-size-policy'
 overrides:
   typescript: 5.8.3
   zod: 3.25.76

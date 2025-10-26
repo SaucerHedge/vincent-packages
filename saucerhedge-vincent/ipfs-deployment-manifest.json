@@ -1,0 +1,44 @@
+[
+  {
+    "package": "deposit-to-vault-ability",
+    "npm": "@saucerhedgevault/deposit-to-vault-ability",
+    "cid": "bafkreihtvcrvbk7gwlidhepwyqhzg2o5kzzf2ldihf4bizqrcswcdaqja4",
+    "url": "https://gateway.pinata.cloud/ipfs/bafkreihtvcrvbk7gwlidhepwyqhzg2o5kzzf2ldihf4bizqrcswcdaqja4"
+  },
+  {
+    "package": "open-vault-hedged-position-ability",
+    "npm": "@saucerhedgevault/open-vault-hedged-position-ability",
+    "cid": "bafkreigafo6ld57gdo2rwwd2w5gkddritf3jz6qd26gqt2vk4u7c5lriny",
+    "url": "https://gateway.pinata.cloud/ipfs/bafkreigafo6ld57gdo2rwwd2w5gkddritf3jz6qd26gqt2vk4u7c5lriny"
+  },
+  {
+    "package": "get-position-status-ability",
+    "npm": "@saucerhedgevault/get-position-status-ability",
+    "cid": "bafkreiaok7eliimdlcxrbgiankxfeqj77gpnvh734ehbswkqj54q3vgkfi",
+    "url": "https://gateway.pinata.cloud/ipfs/bafkreiaok7eliimdlcxrbgiankxfeqj77gpnvh734ehbswkqj54q3vgkfi"
+  },
+  {
+    "package": "close-vault-hedged-position-ability",
+    "npm": "@saucerhedgevault/close-vault-hedged-position-ability",
+    "cid": "bafkreib4yhggcla7xqcjoefiv42mihe2l63aopimytnpbpknshyucba744",
+    "url": "https://gateway.pinata.cloud/ipfs/bafkreib4yhggcla7xqcjoefiv42mihe2l63aopimytnpbpknshyucba744"
+  },
+  {
+    "package": "open-hedged-position-ability",
+    "npm": "@saucerhedgevault/open-hedged-position-ability",
+    "cid": "bafkreiaiiptz4b7qze5zdrk6jtra53cg5v544mm2kspaq2wwsxct7cqp34",
+    "url": "https://gateway.pinata.cloud/ipfs/bafkreiaiiptz4b7qze5zdrk6jtra53cg5v544mm2kspaq2wwsxct7cqp34"
+  },
+  {
+    "package": "close-hedged-position-ability",
+    "npm": "@saucerhedgevault/close-hedged-position-ability",
+    "cid": "bafkreibrtwbqn2fafobcqpw5b2j7xnved65qd2ubrmzl6bluwzs7ptcnha",
+    "url": "https://gateway.pinata.cloud/ipfs/bafkreibrtwbqn2fafobcqpw5b2j7xnved65qd2ubrmzl6bluwzs7ptcnha"
+  },
+  {
+    "package": "max-position-size-policy",
+    "npm": "@saucerhedgevault/max-position-size-policy",
+    "cid": "bafkreibbgyxl5frt3a3vhifz66jxekph5fgzovhhpngs3j2c2ivygtzenq",
+    "url": "https://gateway.pinata.cloud/ipfs/bafkreibbgyxl5frt3a3vhifz66jxekph5fgzovhhpngs3j2c2ivygtzenq"
+  }
+]
